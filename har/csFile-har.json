@@ -1,0 +1,55 @@
+{
+    "log": {
+        "version": "1.2",
+        "entries": [
+            {
+                "request": {
+                    "method": "POST",
+                    "url": "https://api.cogniswitch.ai:8243/cs-api/0.0.1/cs/knowledgeSource/file",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "accept",
+                            "value": "*/*"
+                        },
+                        {
+                            "name": "openAIToken",
+                            "value": "<openAIToken>"
+                        },
+                        {
+                            "name": "platformToken",
+                            "value": "<platformToken>"
+                        },
+                        {
+                            "name": "Content-Type",
+                            "value": "multipart/form-data"
+                        }
+                    ],
+                    "queryString": [
+                        {
+                            "name": "documentName",
+                            "value": "<name for this doc>"
+                        },
+                        {
+                            "name": "documentDescription",
+                            "value": "<description for this doc>"
+                        }
+                    ],
+                    "headersSize": -1,
+                    "bodySize": -1,
+          	    "postData": {
+            		"mimeType": "multipart/form-data; boundary=----WebKitFormBoundaryF8s7BgJ4d9AzhUSk",
+           		"text": "------WebKitFormBoundaryF8s7BgJ4d9AzhUSk\r\nContent-Disposition: form-data; name=\"file\"; filename=\"your-file.ext\"\r\nContent-Type: application/json\r\n\r\n\r\n------WebKitFormBoundaryF8s7BgJ4d9AzhUSk--\r\n",
+            		"params": [
+              		    {
+                		"name": "file",
+                		"value": "(binary)"
+              		    }
+            		]
+          	    }
+                }
+            }
+        ]
+    }
+}
