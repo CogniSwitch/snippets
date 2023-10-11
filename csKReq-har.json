@@ -1,0 +1,45 @@
+{
+    "log": {
+        "version": "1.2",
+        "entries": [
+            {
+                "request": {
+                    "method": "POST",
+                    "url": "https://api.cogniswitch.ai:8243/cs-api/0.0.1/cs/knowledgeRequest",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "accept",
+                            "value": "*/*"
+                        },
+                        {
+                            "name": "openAIToken",
+                            "value": "<openAIToken>"
+                        },
+                        {
+                            "name": "platformToken",
+                            "value": "<platformToken>"
+                        },
+                        {
+                            "name": "Content-Type",
+                            "value": "application/x-www-form-urlencoded"
+                        }
+                    ],
+                    "queryString": [
+                        {
+                            "name": "query",
+                            "value": "<Your question>"
+                        }
+                    ],
+                    "headersSize": -1,
+                    "bodySize": -1,
+                    "postData": {
+                        "mimeType": "application/x-www-form-urlencoded",
+                        "text": ""
+                    }
+                }
+            }
+        ]
+    }
+}
